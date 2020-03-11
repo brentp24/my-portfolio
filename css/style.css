@@ -10,4 +10,51 @@
 h1 {
     padding: 20px;
     size: medium;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #48D1CC;
+
 }
+
+.imageSize {
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+}
+
+
+.pictureText {
+    background-color: #48D1CC;
+    font-size: medium;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    bottom: 20px;
+    padding: 5px;
+    margin: 15px;
+    /* right: 20px; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+
+  .container {
+    /* display: flexbox; */
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+  }
+
+  .row {
+    position: relative;
+    /* padding: 15px 10px; */
+    
+  }
+
+  #profilePic {
+      float: left;
+      height: 200px;
+  }
+
