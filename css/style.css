@@ -9,6 +9,12 @@
     border-color: #48D1CC;
 }
 
+.navbar-brand {
+    background-color: #48D1CC;
+    color: whitesmoke; /*can't get this to show up*/
+    padding: 10px 20px;
+}
+
 h1 {
     padding: 20px;
     size: medium;
@@ -37,13 +43,11 @@ h1 {
     bottom: 10px;
     padding: 5px;
     margin: 15px;
-    /* right: 20px; */
-    /* padding-left: 20px;
-    padding-right: 20px; */
+
   }
 
   .container {
-    /* display: flexbox; */
+
     border-style: solid;
     border-color: lightgrey;
     border-width: 1px;
@@ -60,7 +64,7 @@ h1 {
       height: 200px;
       margin: 10px;
   }
-
+/* Need this to expand the container beyond the picture */
   .group:after {
     content: "";
     display: table;
