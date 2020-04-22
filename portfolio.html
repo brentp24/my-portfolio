@@ -1,75 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel= "stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet"> <!--google fonts-->
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <!--google fonts-->
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-    <header>  <!--sourced from bootstrap-->
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Brent Peterson</a>
+<!-- navbar -->
+<header>  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Brent Peterson</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-        
-          <div id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About </a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span> </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact </a>
-              </li>
+  <section class="container">
+    <h1>Portfolio</h1>
+    <div class="row">
+  
+      <div class="col-md-6" onclick="window.location.href = 'https://brentp24.github.io/web-apis-homework';">
+        <img src="assets/trivia.jpg" alt="Coding Quiz Image" class="imageSize center">
+        <div class="pictureText center">Coding Quiz</div>
+      </div>
 
-            </ul>
-           
-          </div>
-        </nav>
-    
-      </header>
- 
-      <section class = "container">
-        <h1>Portfolio</h1> 
-        <div class = "row"> 
-          <div class="col-md-6"> 
-              <img src="assets/question mark.jfif" alt="word guess image" class="imageSize">
-              <div class = "pictureText">Word Guess</div>
-          </div>
+      <div class="col-md-6" onclick="window.location.href = 'https://brentp24.github.io/strtUP';">
+        <img src="assets/Widget.jpg" alt="strtUP Dashboard" class="imageSize center">
+        <div class="pictureText center">strtUP Dashboard</div>
+      </div>
+    </div>
 
-          <div class="col-md-6">
-            <img src="assets/RPG.png" alt="RPG game image" class="imageSize">
-            <div class = "pictureText">RPG Game</div>
-          </div>
-        </div>
-
-        <div class = "row"> 
-          <div class="col-md-6"> 
-            <img src="assets/trivia.jpg" alt="trivia image" class="imageSize">
-            <div class = "pictureText">Trivia Game</div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/Widget.jpg" alt="widget image" class="imageSize">
-            <div class = "pictureText">Info Widget</div>
-          </div>
-        </div>
-
-        <div class = "row"> 
-          <div class="col-md-6">
-            <img src="assets/RPS.png" alt="RPS image" class="imageSize">
-            <div class = "pictureText">Rock Paper Scissors</div>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-md-6" onclick="window.location.href = 'https://brentp24.github.io/brents-daily-planner';">
+        <img src="assets/planner.jpg" alt="daily planner image" class="imageSize center" title = "photo from NORTHFOLK">
+        <div class="pictureText center">Daily Planner</div>
+      </div>
 
 
-      </section>
+      <div class="col-md-6" onclick="window.location.href = 'https://brentp24.github.io/weatherapp';">
+        <img src="assets/Weather.jpg" alt="widget image" title="photo from Johannes Plenio" class="imageSize center">
+        <div class="pictureText center">Weather App</div>
+      </div>
+    </div>
 
-    
+
+
+
+  </section>
+  <footer class = "footer bg-dark">
+    <p>site made by <a href="https://github.com/brentp24" target="_blank">Brent Peterson</a></p>
+
+    <p>Copyright &copy; 2020</p>
+    </footer>
+<!-- javascript add ins -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
+
 </html>

@@ -14,40 +14,91 @@
 
 </head>
 <body>
-
-  <header>  <!--sourced from bootstrap-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+<!-- navbar -->
+  <header>  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">Brent Peterson</a>
-
-    
-      <div id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About </a>
-          </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span> </a>
+            <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact </a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-
         </ul>
-       
       </div>
     </nav>
-
   </header>
 
   <section class="container">
     <h1>About Me</h1>
 
-    <img src="assets/Picture.jpg" alt="picture of me" class="imageSize" id="profilePic">
+    <img src="assets/Picture.jpg" alt="picture of me" class="portfolioSize" id="profilePic">
     <p>Here is my profile pic. I need to find another picture to use for these things.</p>
     <p class="group">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolores dolorum a obcaecati, officia molestias adipisci, doloribus, voluptas deserunt cupiditate vitae ab eius repudiandae maiores quis sint explicabo consequuntur rem.</p>
 
+
+
+
+
+    <div class="row">
+      <div class="col-md-2">
+      <h5>linkedin: </h5>
+    </div>
+    <div class="col-md-10"><h5><a href="https://www.linkedin.com/in/brentjpeterson/" target="_blank">view</a></h5>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-2">
+      <h5>github: </h5>
+    </div>
+    <div class="col-md-10"><h5><a href="https://github.com/brentp24" target="_blank">view</a></h5>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-2">
+      <h5>resume: </h5>
+    </div>
+    <div class="col-md-10"><h5><a href="https://drive.google.com/file/d/1D-zPyitRKOkfVtxMx3Ia3Ga_b2S5dFOH/view?usp=sharing"
+      target="_blank">view</a></h5>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-2">
+        <h5>email: </h5>
+      </div>
+      <div class="col-md-10"><h5><a href="mailto:brentp24@gmail.com">brentp24@gmail.com</a></h5>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+      <h5>phone: </h5>
+    </div>
+    <div class="col-md-10"><h5><a href="tel:801-361-0502">(801) 361-0502</a></h5>
+      </div>
+    </div>
+
   </section>
 
+<footer class = "footer bg-dark">
+<p>site made by <a href="https://github.com/brentp24" target="_blank">Brent Peterson</a></p>
 
+<p>Copyright &copy; 2020</p>
+</footer>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

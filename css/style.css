@@ -2,15 +2,13 @@
     padding: 20px;
 }
 
-
 .btn-primary {
     margin: 20px;
-    background-color: #48D1CC;
-    border-color: #48D1CC;
+    background-color: #354253;
+    border-color: #354253;
 }
 
 .navbar-brand {
-    background-color: #48D1CC;
     color: whitesmoke; /*can't get this to show up*/
     padding: 10px 20px;
 }
@@ -19,35 +17,42 @@ h1 {
     padding: 20px;
     size: medium;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    color: #48D1CC;
-
+    color: #354253;
 }
 
 .imageSize {
-    width: 200px;
-    height: 150px;
-    margin: 15px;
+    width: 250px;
+    height: 200px;
+
+}
+
+.portfolioSize {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 225px;
+  margin: 0px;
+  text-align: center
 }
 
 
+
 .pictureText {
-    background-color: #48D1CC;
+    background-color: #354253;
     font-size: medium;
+    position: relative;
     color: white;
-    position: absolute;
     z-index: 1;
     text-align: center;
-    width: 200px;
+    width: 250px;
     height: 35px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    bottom: 10px;
+    bottom: 65px;
     padding: 5px;
     margin: 15px;
-
   }
 
   .container {
-
     border-style: solid;
     border-color: lightgrey;
     border-width: 1px;
@@ -71,3 +76,52 @@ h1 {
     clear: both;
   }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer {
+    display: block;
+    font-size: medium;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 50px;
+   
+  }
+
+
+  a:link {
+    color: navy
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .container {
+    min-height: calc(100vh - 200px);
+    background-color: white;
+    padding-bottom: 50px
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: lightgrey
+  }
