@@ -19,9 +19,3 @@ function setBackground() {
 }
 //set Background
 setBackground();
-
-function sayHi() {
-    console.log("hi")
-}
-
-sayHi();
